@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Schedula</title>
+  <link rel="icon" href="/Task1/Images/logo.png" type="image/icon type">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!----HEADER---->
+  <section class="header">
+    <div class="circle"></div>
+    <nav>
+      <a href=""><img src="/Task1/Images/LogoName.png" alt="LogoName"></a>
+      <div class="menu-bar" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <button class="login">Log in</button>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!----INTRO---->
+    <div class="tagline">
+      <h1>Stay Organized and Never Miss a Beat</h1>
+      <div class="intro-row">
+        <div class="intro-col">
+          <h3>Your Ultimate Schedule Manager</h3>
+          <p>In a fast-paced world where time is of the essence, staying organized is key to success.
+            <br>However, keeping track of numerous appointments, deadlines, and events can be a daunting task.
+          </p>
+          <a href="" class="main-btn">Visit us to know more</a>
+        </div>
+        <div class="intro-col">
+          <img src="/Task1/Images/calender.jpg" alt="calender">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----PROBLEM---->
+  <section class="problem">
+    <div class="circle1"></div>
+    <div class="pro-row">
+      <div class="pro-col">
+        <img src="/Task1/Images/problem.jpg" alt="problem">
+      </div>
+      <div class="pro-col">
+        <h1>Revolutionize Your Schedule</h1>
+        <h3>Embrace Technology for Effective Time Management</h3>
+        <p>Traditional paper-based calendars and manual reminders are no longer <br> effective in today's digital era.
+          With the increasing complexity of schedules <br> and the need for real-time updates, a more efficient solution
+          is required.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!----SOLUTION---->
+  <section class="solution">
+    <div class="row">
+      <div class="solution-col">
+        <i class="fa fa-calendar"></i>
+        <h2>
+          Personalized Calendar
+        </h2>
+        <p>
+          Input the schedules, color code the events and customizethe layout according to preferences and much more only
+          on <span>MySchedula</span>
+        </p>
+      </div>
+      <div class="solution-col">
+        <i class="fa fa-bell-o"></i>
+        <h2>
+          Automated Reminders
+        </h2>
+        <p>Set up automated reminders for important events or deadlines and stay on top of the schedules only on
+          <span>MySchedula</span>
+        </p>
+      </div>
+      <div class="solution-col">
+        <i class="fa fa-share-alt"></i>
+        <h2>
+          Collaborative Scheduling
+        </h2>
+        <p>Invite others to share and view schedules and eliminate the confusion of overlapping appointments only on
+          <span>MySchedula</span>
+        </p>
+      </div>
+      <div class="solution-col">
+        <i class="fa fa-google"></i>
+        <h2>
+          Integration with Other Platforms
+        </h2>
+        <p>Integrates with popular platforms like Google Calendar to import and sync schedules across different devices
+          only on <span>MySchedula</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!----FAQ---->
+  <section class="faq">
+    <h1><i class="fa fa-pencil-square-o"></i>Frequently Asked Questions</h1>
+    <div class="faq-row">
+      <div class="faq-col">
+        <label for="first">What is a MySchedule?</label>
+        <input type="radio" name="faq" id="first">
+        <p>A MySchedula is an online platform that helps <br> you create and manage schedules for various <br> activities or events. It allows you to input important details, <br> like date, time, and description, and <br> keeps track of all your upcoming schedules.
+        </p>
+      </div>
+      <div class="faq-col">
+        <label for="second">How does MySchedula work?</label>
+        <input type="radio" name="faq" id="second">
+        <p>MySchedula provides a user-friendly interface where you can easily create and organize your schedules. Simply input the necessary information for each activity or event, and the website will store and display them in a convenient calendar format. It also offers reminders, notifying you in advance of upcoming schedules.
+        </p>
+      </div>
+    </div>
+    <div class="faq-row">
+      <div class="faq-col">
+        <label for="third">Can I access it from any device?</label>
+        <input type="radio" name="faq" id="third">
+        <p>Yes, it is designed to be accessible from desktop computers, laptops, tablets, and smartphones. You can access your schedules and make changes anytime, anywhere, as long as you have an internet connection.
+        </p>
+      </div>
+      <div class="faq-col">
+        <label for="fourth">How does the reminder feature work?</label>
+        <input type="radio" name="faq" id="fourth">
+        <p>Once you set a schedule and enable the reminder feature, it will send you notifications (e.g., via email or push notification) to remind you before the scheduled activity or event. You can customize the timing of these reminders to suit your needs.
+        </p>
+      </div>
+    </div>
+    <div class="faq-row">
+      <div class="faq-col">
+        <label for="fivth">Is my data safe on the website?</label>
+        <input type="radio" name="faq" id="fivth">
+        <p>We take data privacy and security seriously. Our website uses industry-standard encryption protocols to ensure that your information is protected. We do not share or sell your data to third parties, and you have full control over your schedules and account settings.
+        </p>
+      </div>
+      <div class="faq-col">
+        <label for="sixth">Is MySchedula free to use?</label>
+        <input type="radio" name="faq" id="sixth">
+        <p>MySchedula offers both free and premium plans. The free version provides basic scheduling features, while the premium plan offers additional functionalities, such as advanced reminders, integrations with other tools, and priority customer support.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!----ABOUT US---->
+  <section class="about">
+    <div class="content">
+    <h1>ABOUT US</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Natus corporis distinctio nisi fugit perspiciatis sit ullam <br> corrupti qui nulla tenetur et eius quam amet sed facere,<br> fuga quas? Quam, eligendi?
+    </p>
+  </div>
+    <img src="/Task1/Images/about.jpg" alt="about">
+  </section>
+
+<!----TESTIMONIALS---->
+  <section class="testimonials">
+    <h1>WHAT <span>MySchedula</span> USERS SAY</h1>
+    <div class="row">
+      <div class="testimonial-col">
+        <img src="/Task1/Images/person3.jpg" alt="person3">
+        <div>
+          <h2>Charles</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Rerum laborum consequatur placeat officiis molestiae dolore voluptatum, aperiam aliquid laudantium
+            asperiores necessitatibus quas impedit eligendi.</p>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+      </div>
+      <div class="testimonial-col">
+        <img src="/Task1/Images/person2.jpg" alt="person2">
+        <div>
+          <h2>Halsey</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Rerum laborum consequatur placeat officiis molestiae dolore voluptatum, aperiam aliquid laudantium
+            asperiores necessitatibus quas impedit eligendi.</p>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+      </div>
+      <div class="testimonial-col">
+        <img src="/Task1/Images/person4.jpg" alt="person4">
+        <div>
+          <h2>Olivia</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Rerum laborum consequatur placeat officiis molestiae dolore voluptatum, aperiam aliquid laudantium
+            asperiores necessitatibus quas impedit eligendi.</p>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!----CALL TO ACTION---->
+  <section class="cta">
+    <h1>Take charge of your schedule with <span>MySchedula</span>.<br>Increase productivity, meet deadlines seamlessly.<br>Be in control of your time – Sign up today!</h1>
+    <a href="" class="cta-btn">Sign up</a>
+  </section>
+
+  <!----FOOTER---->
+  <section class="footer">
+    <div class="contact-row">
+      <div class="contact-col">
+        <i class="fa fa-phone"></i>
+        <span>
+          <h5>+9 8765432109></h5>
+          <p>Monday to Saturday, 10am to 6pm</p>
+        </span>
+      </div>
+      <div class="contact-col">
+        <i class="fa fa-home"></i>
+        <span>
+          <h5>ABC Building, KOZ Road,</h5>
+          <p>Los Angeles, USA</p>
+        </span>
+      </div>
+      <div class="contact-col">
+        <i class="fa fa-envelope-o"></i>
+        <span>
+          <h5>MySchedula@gmail.com</h5>
+          <p>Email us your query</p>
+        </span>
+      </div>
+      <div class="contact-col">
+        <img src="/Task1/Images/LogoName.png" alt="LogoName">
+        <p class="copyright"><i class="fa fa-copyright"></i>Copyright 2023 MySchedula <br>All Rights Reserved</p>
+      </div>
+    </div>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+  </section>
+
+<!----DIMENTION---->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
