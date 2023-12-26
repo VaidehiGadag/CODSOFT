@@ -324,13 +324,13 @@ nav .fa {
     background-color: #e4904e;
 }
 
-.faq h1{
+.faq h1 {
     color: #fffbff;
     letter-spacing: 1px;
     font-size: xx-large;
 }
 
-.faq h1 .fa{
+.faq h1 .fa {
     margin-right: 10px;
 }
 
@@ -371,7 +371,7 @@ nav .fa {
     transition: max-height 0.5s;
 }
 
-.faq-col label+input[type="radio"]:checked + p {
+.faq-col label+input[type="radio"]:checked+p {
     max-height: 400px;
 }
 
@@ -383,25 +383,25 @@ nav .fa {
     padding-bottom: 50px;
     background-color: #000;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
-.about img{
+.about img {
     width: 30%;
     border-radius: 5%;
 }
 
-.about h1{
+.about h1 {
     position: relative;
     margin-left: 35px;
     text-align: left;
     color: #fffbff;
-    top:60px;
+    top: 60px;
     letter-spacing: 1px;
     font-size: 28px;
 }
 
-.about p{
+.about p {
     position: relative;
     top: 60px;
     color: #fffbff;
