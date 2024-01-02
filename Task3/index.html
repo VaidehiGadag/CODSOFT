@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <link rel="stylesheet" href="/Task3/style.css">
-    <link rel="script" href="/Task3/script.js">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
 </head>
+
 <body>
     <div class="container">
         <div class="calculator">
             <div>
-            <input type="text" id="result">
-        </div>
+                <input type="text" id="result">
+            </div>
             <button onclick="clearResult()">C</button>
             <button onclick="deleteResult()">DE</button>
             <button onclick="appendValue('%')">%</button>
@@ -37,25 +40,30 @@
             <button onclick="calculate()">=</button>
         </div>
     </div>
+
     <script>
         function appendValue(value) {
-    document.getElementById('result').value += value;
-}
+            document.getElementById('result').value += value;
+        }
 
-function clearResult() {
-    document.getElementById('result').value = '';
-}
+        function clearResult() {
+            document.getElementById('result').value = '';
+        }
 
-function deleteResult() {
-    var resultElement = document.getElementById('result');
-    var currentValue = resultElement.value;
-    resultElement.value = currentValue.toString().slice(0, -1);
-}
+        function deleteResult() {
+            var resultElement = document.getElementById('result');
+            var currentValue = resultElement.value;
+            resultElement.value = currentValue.toString().slice(0, -1);
+        }
 
-function calculate() {
-    var result = eval(document.getElementById('result').value);
-    document.getElementById('result').value = result;
-}
+        function calculate() {
+            var result = eval(document.getElementById('result').value);
+            document.getElementById('result').value = result;
+        }
     </script>
+
 </body>
+
 </html>
+
+
