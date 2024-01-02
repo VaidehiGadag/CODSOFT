@@ -1,0 +1,38 @@
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons .fa {
+    color: #ffffff;
+    cursor: pointer;
+    padding: 3px;
+    flex-basis: 15%;
+}
+
+.copyright{
+    letter-spacing: 4px;
+}
+
+.copyright .fa{
+    margin-right: 15px;
+}
+
