@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     max-width: 100%;
     margin: 0;
@@ -46,7 +50,7 @@ nav img {
 .menu-bar ul li a {
     color: #fffbff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16.5px;
 }
 
 .menu-bar ul li::after {

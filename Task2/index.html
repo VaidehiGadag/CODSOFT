@@ -5,201 +5,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Task2/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/19da888894.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!----HEADER---->
-    <div id="header">
+    <div class="header" id="header">
         <div class="container">
             <nav>
                 <ul>
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Service</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Service</a></li>
+                    <li><a href="#project">Project</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <a href="/Task2/CV.pdf" download class="btn">Download CV</a>
                 </ul>
             </nav>
-            <div class="header-text">
-                <p>Web Development</p>
-                <h1>HI, I'm <span>Veda</span> <br> Gadag from Mumbai</h1>
+            <div class="intro-row">
+                <div class="intro-col">
+                    <h4>Hello, My Name is</h4>
+                    <h1><span>Vaidehi</span> Gadag</h1>
+                    <p>And I'm a Web Developer</p>
+                </div>
+                <div class="intro-col">
+                    <img src="/Task2/Images/photo.jpg" alt="photo">
+                </div>
             </div>
         </div>
     </div>
 
     <!----ABOUT---->
-    <div id="about">
+    <div class="about" id="about">
         <div class="container">
-            <div class="row">
+            <div class="about-row">
                 <div class="about-col-1">
-                    <img src="/Task1/Images/problem.jpg">
+                    <img src="/Task2/Images/about.jpg">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem pariatur consequuntur
-                        debitis et beatae commodi a, sapiente omnis fugiat dolorum dolores totam sint officia obcaecati
-                        tenetur corrupti cupiditate quam?</p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>HTML</span><br>Development</li>
-                            <li><span>CSS</span><br>Development</li>
-                            <li><span>Javascript</span><br>Development</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>DEC 2023</span><br>Internship at Codsoft</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2022-Current</span><br>Computer Engineering</li>
-                        </ul>
-                    </div>
+                    <h1>About Me</h1>
+                    <p>I'm India based a professional Web Developer. My main goal is to help and satisfy the clients
+                        with Web Development solutions.</p>
+                    <br>
+                    <br>
+                    <p><span>Skills</span> HTML CSS Javascript</p>
+                    <p><span>Experience</span> Dec 2023 Internship at CodSoft</p>
+                    <p><span>Education</span> 2022-Current Computer Engineering</p>
                 </div>
             </div>
         </div>
     </div>
 
     <!----SKILLS---->
-    <div id="services">
+    <div class="skills" id="skills">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
+            <h1>My Skills</h1>
+            <div class="skill-list">
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Development</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos iste quaerat
-                        nobis? Saepe voluptatem iusto laboriosam? Quo beatae optio officia? Est aspernatur nostrum
-                        impedit cum rem nam amet adipisci?</p>
-                    <a href="#">Learn more</a>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
                 </div>
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos iste quaerat
-                        nobis? Saepe voluptatem iusto laboriosam? Quo beatae optio officia? Est aspernatur nostrum
-                        impedit cum rem nam amet adipisci?</p>
-                    <a href="#">Learn more</a>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
                 </div>
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Java</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos iste quaerat
-                        nobis? Saepe voluptatem iusto laboriosam? Quo beatae optio officia? Est aspernatur nostrum
-                        impedit cum rem nam amet adipisci?</p>
-                    <a href="#">Learn more</a>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Javascript</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>JAVA</h2>
                 </div>
             </div>
         </div>
     </div>
+
     <!----PROJECT---->
-    <div id="portfolio">
+    <div class="project" id="project">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="/Task1/Images/cta.jpg">
-                    <div class="layer">
+            <h1>My Work</h1>
+            <div class="work-row">
+                <div class="work-col">
+                    <img src="/Task2/Images/project1.jpg">
+                    <div class="info">
                         <h3>Schedule Manager Website</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eum doloremque quo tempore
-                            veritatis nisi</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <p>An online platform that helps you create and manage schedules for various
+                            activities or events. It allows you to input important details, like date, time, and
+                            description, and
+                            keeps track of all your upcoming schedules.
+                        </p>
                     </div>
                 </div>
-                <div class="work">
-                    <img src="/Task1/Images/cta.jpg">
-                    <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eum doloremque quo tempore
-                            veritatis nisi</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="/Task1/Images/cta.jpg">
-                    <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eum doloremque quo tempore
-                            veritatis nisi</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                <div class="work-col">
+                    <img src="/Task2/Images/project2.jpg">
+                    <div class="info">
+                        <h3>Simple Calculator</h3>
+                        <p>A Simple Calculator that performs basic arithmetic operations such as addition, subtraction
+                            and more.</p>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See More</a>
         </div>
     </div>
-    <!----RESUME---->
+
     <!----CONTACT---->
-    <div id="contact">
+    <div class="contact" id="contact">
         <div class="container">
-            <div class="row">
-               <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i>+9876543210</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <div class="contact-row">
+                <div class="contact-col">
+                    <p><i class="fa-solid fa-paper-plane"></i>vaidehi.gadag@gmail.com</p>
                 </div>
-                <a href="/Task1/Images/calender.jpg" download class="btn btn2">Download CV</a>
-               </div>
-               <div class="contact-right">
-                <form>
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                <button type="submit" class="btn btn2">Submit</button>
-                </form>
-               </div>
+                <div class="contact-col">
+                    <p><i class="fa-solid fa-phone"></i>+9876543210</p>
+                </div>
+                <div class="contact-col">
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <a href="/Task2/CV.pdf" download class="btn">Download CV</a>
+                </div>
             </div>
         </div>
         <div class="copyright">
             <p><i class="fa fa-copyright"></i>All Rights Reserved</p>
         </div>
     </div>
-    <!-- <div class="contact">
-        <h1>Contact Me</h1>
-        <p><i class="fa fa-envelope-o"></i>vg@gmail.com <br>Email for Enquery</p>
-        <p><i class="fa fa-phone"></i>+9876543210 <br>Contact for Service</p>
-    </div> -->
-    <!----FOOTER---->
-    <!-- <section class="footer">
-        <div class="icons">
-            <i class="fa fa-linkedin-square"></i>
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-twitter"></i>
-        </div>
-        <p class="copyright"><i class="fa fa-copyright"></i>All Rights Reserved</p>
-    </section> -->
-
-
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-
-    </script>
 </body>
-
 </html>
